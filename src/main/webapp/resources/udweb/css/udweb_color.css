@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+색상변경 ab3e55 -> 333 // 9b344a -> 000
+
+*/
+
+/*** member/member.css ***/
+/* 로그인 */
+.member_cont .member_login_box .login_input_sec button{float:right; width:158px; height:91px; margin:15px 0 0 0; border:1px solid #333; background:#333; color:#ffffff; font-size: 15px; font-weight:bold; cursor:pointer;}
+.member_cont .member_login_box .login_input_sec button:hover{background:#000; border:1px solid #000;}
+/* 비회원 주문조회 */
+.member_cont .nonmember_order_box .order_input_sec button{float:right; width:158px; height:91px; margin:15px 0 0 0; border:1px solid #333; background:#fff; color:#333; font-size: 15px; font-weight:bold; cursor:pointer;}
+.member_cont .nonmember_order_box .order_input_sec button:hover{border:1px solid #000; color:#000;}
+/* 아이디 찾기 완료, 비밀번호 변경 완료 */
+.find_complete_box .find_id_name{font-size:22px; color:#333;}
+/* 아이디 찾기 */
+.find_id_sec > p{color:#333;}
+/* 회원가입 완료 */
+.join_ok_box .btn_member_sec .btn_login{background: #333; border:1px solid #333; color: #fff;}
+.join_ok_box .btn_member_sec .btn_login:hover{border:1px solid #000; color: #fff; background:#000;}
+/* 회원승인 대기 */
+.join_wait_box .join_wait_tit .complete strong{font-weight:bold; color:#333;}
+/* 휴면회원 해제 선택 */
+.wake_base_box .wake_date dd strong{color:#333;}
+/* 회원가입 정보입력 */
+.join_base_wrap .member_tit .page_on{color:#333; font-weight:bold;}
+.base_info_box > span{float:right; padding:0 0 0 10px; line-height: 40px; color:#333;}
+/* 회원가입 약관동의 */
+.join_agreement_wrap .member_tit .page_on{color:#333;}
+.join_agreement_cont .form_element strong{color:#333;}
+.join_agreement_cont .form_element strong.choice{color:#333;}
+.join_agreement_cont .form_element span > a{padding:0 10px 0 5px; color:#333; font-size:12px; background:url('../../img/member/icon_arrow_03.png') no-repeat right center; text-decoration:underline;}
+.join_agreement_cont .important_check_box .important_check{display:inline-block; margin:0 auto; padding:0 0 0 18px; color:#333; background:url('../../img/member/icon_caution02.png') no-repeat 0px 3px;}
+.info_again a{color:#333; text-decoration:underline;}

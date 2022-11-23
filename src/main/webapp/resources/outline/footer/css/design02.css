@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* outline/footer/css/design02.css */
+
+/* ------------- 하단 디자인 ------------- */
+/* 풋터 */
+#footer_wrap{position:relative; border-top:2px solid #000;background:#f9f9f9;}
+#footer{overflow:hidden; padding:0 0 0 0;}
+
+/* 컨텐츠 하단 */
+.content_info_wrap{border-bottom:1px solid #ebebeb;}
+.content_info{overflow:hidden; padding:30px 0 40px 0;}
+
+.footer_left{display:inline-block;float:left;max-width:800px;}
+.footer_left .foot_list ul{display:inline-block;width:auto;}
+
+/* 풋터 메뉴 */
+.foot_list{line-height:1;}
+.foot_list ul{overflow:hidden; width:auto; margin:0 auto;}
+.foot_list ul li{float:left; padding:20px 0;}
+
+.foot_list ul li .txt_bar {display: inline-block;width: 1px; height: 10px;margin: 0 0 0 10px;background: #dedede;vertical-align: -1px;}
+.foot_list ul li a{padding:0px 0 0px 10px; color:#333;font-size:11px;letter-spacing:1px;}
+.foot_list ul li a:hover{text-decoration:underline;}
+.foot_list ul li:first-child a{padding-left:0; border-left:0 none;}
+
+
+/* 회사 정보 */
+.foot_cont{display:inline-block;width:auto;color: #555;font-size: 11.5px;line-height:23px;letter-spacing:-.3px;}
+.foot_cont .foot_info{display:inline-block; float:left;}
+.foot_cont .foot_info_list{overflow:hidden; width:100%;}
+.foot_cont .foot_info_list dl{float:left;}
+.foot_cont .foot_info_list dt{float:left;}
+.foot_cont .foot_info_list dd{float:left; padding:0 15px 0 3px;}
+.foot_cont .foot_info_list dt p.cus_copyright{color:#888;font-size:11px;display:inline-block;padding-left:5px;}
+.foot_cont .copyright{float:left; width:100%;}
+
+.footer_right{display:inline-block;float:right;padding-left:50px;max-width:340px;}
+
+.footer_right h3{padding:0 0 10px 0;color:#000;font-weight:bold; font-size:11px;letter-spacing:1.5px;position:relative;}
+.footer_right h3 span{float:right;font-size:11px;}
+
+
+/* cs center */
+.footer_right .cs_center{float:left;width:100%;}
+.footer_right .cs_center strong{display:block; padding:0 0 7px 0; color:#000; font-size:25px;font-weight:normal;letter-spacing:-1.5px;line-height:31px;}
+.footer_right .cs_center strong i{vertical-align:middle;}
+.footer_right .cs_center p{color:#888;letter-spacing:0;line-height:17px;font-size:11px;padding-bottom:10px;}
+/* bank info */
+.footer_right .bank_info{float:left;padding-top:20px;width:100%;}
+.footer_right .bank_info strong{display:inline-block; padding:0 0 7px 0;color:#000; font-size:20px;font-weight:normal;letter-spacing:-.5px;line-height:25px;}
+.footer_right .bank_info p{color:#888;letter-spacing:0;line-height:17px;font-size:11px;}
+.footer_right .bank_info em{font-weight:normal;color:#888;}
+
+
+
+/* 사용자정보확인 */
+.btn_licensee_info{color:#000000; font-size:11px;}
+.btn_email:hover{text-decoration:underline;}
+/* 공정거래 위원회 */
+.foot_certify{overflow:hidden; padding:5px 0 15px 0; text-align:right;}
+.foot_certify span{display:inline-block; padding:0 10px 0 10px;}
+.foot_certify span:first-child{padding:0 10px 0 0}

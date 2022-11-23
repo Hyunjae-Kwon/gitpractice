@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/**
+ * custom css 입니다. 추가적인 css 는 여기에 작성을 해주세요.
+ */
+
+ @import url(seum/seum_kcp.css);
+
+
+#header .header_top{background:none;}
+.top_member_box > li a{color:#333;}
+.top_member_box > li strong.cart{color:#333;background:rgba(255, 255, 255,0.8)}
+.top_member_box > li .accent span{display:none;}
+
+
+
+.timesale {
+    width: 282px;
+    height: 372px;
+    dispaly: inline-block;
+    background-image: url(/data/skin/front/udweb_p/img/etc/time-sale-bg.png);
+    background-size: cover;
+    background-position: center center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff5539;
+}
+.timesale .date{
+margin: 250px 30px 30px 0px;
+    text-align: right;
+    font-family: "Noto Sans KR";
+    , sans-serif: ;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+	}

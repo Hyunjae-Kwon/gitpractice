@@ -1,0 +1,497 @@
+@charset "utf-8";
+
+.seum_kcp *,
+.chef_members *,
+.chef_pay * {
+    font-family: 'Noto Sans KR';
+}
+
+/* -------------- 멤버쉽 정기결제 상품 상세 페이지 ---------------- */
+
+/* 정기결제 버튼 */
+
+.seum_kcp .btn_add_order {
+    margin: 0;
+}
+
+
+
+/* 상품상세정보 */
+.item_goods_sec .detail_cont {
+    margin-top: 45px;
+    text-align: center;
+}
+
+
+/* ---------------------- 멤버쉽 정기결제 주문서 작성 페이지 ---------------------- */
+
+.seum_kcp .order_table_type td {
+    border-left: 1px dotted #ededed;
+}
+
+
+/* ---------------------- 멤버쉽 정기결제 마이페이지 상단 ---------------------- */
+
+.sub_content .content.seum_kcp {
+    width: 960px;
+    float: right;
+}
+
+
+/* 버튼 레이아웃 */
+.seum_kcp .mypage_top_wallet ul {
+    padding: 27px 0;
+}
+
+.seum_kcp .mypage_top_wallet ul li {
+    width: calc(25% - 3px);
+}
+
+
+.seum_kcp .mypage_top_wallet li strong {
+    color: #ea7600;
+}
+
+
+/* 셰프 멤버스 버튼 */
+.seum_kcp .mypage_top_wallet ul li.btn_chef span strong {
+    font-size: 13px;
+    color: #000;
+    display: block;
+    margin-top: 9px;
+}
+
+
+/* --------------- 셰프멤버스 상세 페이지 ---------------- */
+/* 셰프멤버스 상세 페이지 | service/chef_members.html */
+
+/* 레이아웃  */
+section.chef_members {
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+/* 타이틀  */
+section.chef_members h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section.chef_members > h1::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: #ea7600;
+    margin: 0 auto 14px auto;
+} 
+
+section.chef_members > h1 {
+    margin-bottom: 40px;
+}
+
+
+/* 상단 회원 정보 */
+article.chef_top {
+    background-color: rgba(234,118,0,0.9);
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+article.chef_top h2 {
+    color: #fff;
+    position: relative;
+    padding: 0 40px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* 정보관리 버튼 */
+article.chef_top h2 > a {
+    position: absolute;
+    display: block;
+    right: 40px;
+    top: 1.5px;
+    font-size: 14px;
+    color: #efefef;
+    background: #EA5600;
+    padding: 6px 10px;
+}
+
+article.chef_top h2 > a > img {
+    margin: 3px 4px 0 0;
+}
+
+/* 회원정보 하단 */
+article.chef_top .sub_box {
+    background: #fff;
+    font-size: 14px;
+    padding: 20px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* 셰프멤버스 라벨 */
+article.chef_top .sub_box em {
+    color: #ea7600;
+    display: inline-block;
+    border: 1px solid #ea7600;
+    padding: 3.5px 6.5px;
+    margin-bottom: 10px;
+}
+
+
+/* 하단 기본혜택 영역 */
+
+article.chef_bottom {
+    display: flex; 
+    margin-bottom: 60px;  
+}
+
+article.chef_bottom > section {
+    width: 50%;
+}
+
+article.chef_bottom > section:first-child {
+    margin-right: 40px;
+    border: 1px solid #dedede;
+    padding: 20px 40px;
+}
+
+article.chef_bottom > section h1 {
+    margin-bottom: 20px;
+}
+
+article.chef_bottom > section ul {
+    background: #efefef;
+    display: flex;
+    font-size: 14px;
+    color: #666;
+    padding: 11px 0;
+    margin-bottom: 20px;
+}
+
+article.chef_bottom > section ul li  {
+    width: 50%;
+}
+
+article.chef_bottom > section ul li strong {
+    color: #333;
+    font-size: 20px;
+}
+
+/* 혜택 테이블 */
+article.chef_bottom > section table,
+article.chef_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 테이블헤드 */
+article.chef_bottom > section table thead th,
+article.chef_table table thead th {
+    font-size: 14px;
+    background: #ea7600;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px 0;
+}
+
+
+
+/* 테이블바디 */
+article.chef_bottom > section table tbody td,
+article.chef_table table tbody td {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+}
+
+/* 쿠폰명 */
+article.chef_bottom > section table tbody td.seum_couponNm,
+article.chef_table table tbody td.seum_couponNm {
+    font-weight: bold;
+    color: #333;
+} 
+
+/* 잔여수 */
+article.chef_bottom > section table tbody td.seum_rest {
+    color: #ea7600;
+}
+
+article.chef_bottom > section table + p {
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+/* 최하단 결제내역 테이블 영역 */
+
+article.chef_table {
+    border: 1px solid #dedede;
+    padding: 40px;
+}
+
+
+article.chef_table h1 {
+    margin-bottom: 20px;
+}
+
+
+/* --------------- 셰프멤버스 정보관리 페이지 ---------------- */
+/* 셰프멤버스 상세 페이지 | service/chef_pay.html */
+
+article.chef_bottom.chef_pay > section {
+    border: 0;
+    padding: 0;
+}
+
+article.chef_pay  h1::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: #ea7600;
+    margin: 0 auto 14px auto;
+}
+
+article.chef_pay.chef_bottom h1,
+article.chef_pay h1 {
+    margin-bottom: 0;
+}
+
+article.chef_pay p.txt {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+/* 등록결제수단 */
+/* 카드 */
+article.chef_pay .seum_card {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.16) 0 3px 6px;
+    padding: 92px 0;
+    margin: 0 40px;
+    display: flex;
+}
+
+article.chef_pay .seum_card  > div {
+    margin: auto;
+}
+
+/* 카드사명 */
+article.chef_pay .seum_card .seum_method {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* 카드정보 */
+article.chef_pay .seum_card .seum_cardNb {
+    font-size: 14px;
+    color: #666;
+}
+article.chef_pay .seum_card .seum_cardNb i {
+    font-style: normal;
+}
+
+
+
+/* 정기결제 알림 수단 */
+
+
+article.chef_bottom.chef_pay > section ul {
+    background: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+article.chef_bottom.chef_pay > section.chef_alarm > div {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background: #efefef;
+    display: flex;
+    min-height: 245px;
+}
+
+article.chef_bottom.chef_pay > section.chef_alarm > div > ul {
+    margin: auto;
+}
+
+article.chef_bottom.chef_pay > section.chef_alarm  ul li {
+    width: 100%;
+}
+
+
+article.chef_bottom.chef_pay {
+    margin-bottom: 80px;
+}
+
+
+
+/* 해지하기 버튼 */
+.chef_pay.chef_bye section .btn_chef.btn_bye {
+    font-size: 20px;
+    color: #666;
+    border: 1px solid #666;
+    display: inline-block;
+    padding: 16px 65px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+
+/* 해지 모달창 */
+#seum_modal {
+    display: none;
+    position: fixed;
+    width: 500px;
+    background: #fff;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000;
+    padding: 0 20px;
+    z-index: 999;
+	border-radius: 10px;
+}
+
+#seum_modal h1::before {
+    display: none;
+}
+
+#seum_modal h1 {
+    position: relative;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 16px 0;
+    border-bottom: 1px solid #707070;
+}
+
+#seum_modal h1 > b {
+    cursor: pointer;
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    background: url(../../img/icon/btn_layer_close.png)no-repeat center center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top:25.5px;
+}
+
+#seum_modal p {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 100px;
+    background: url(../../img/icon/gift_pc.png)no-repeat center top;
+    margin: 20px 0;
+}
+
+#seum_modal p em {
+    font-weight: bold;
+}
+
+#seum_modal p i {
+    color: #ea7600;
+    font-style: normal;
+}
+
+#seum_modal > ul {
+    background: #efefef;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+#seum_modal > ul li  {
+    margin-top: 10px;
+}
+
+#seum_modal > ul li:first-child {
+    margin-top: 0;
+}
+
+/* 혜택포기하기 혜택 유지하기 버튼 */
+
+#seum_modal .btn_wrap {
+    text-align: center;
+}
+
+#seum_modal .btn_wrap ul {
+    font-size: 0;
+    margin: 20px 0;
+}
+
+#seum_modal .btn_wrap ul li {
+    width: 160px;
+    display: inline-block;
+}
+
+#seum_modal .btn_wrap ul li a {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #666;
+    padding: 10px 0;
+}
+
+#seum_modal .btn_wrap ul li:first-child {
+    margin-right: 10px;
+}
+
+#seum_modal .btn_wrap ul li.modal_close a {
+    border-color: #ea7600;
+    background: #ea7600;
+    color: #fff;
+}
+
+
+
+
+
+/* --------------- 셰프멤버스 혜택 페이지 ---------------- */
+/* 셰프멤버스 상세 페이지 | service/chef_benefit.html */
+
+/* 실버회원, 골드회원 버튼 */
+.chef_benefit .banner_wrap {
+    position: relative;
+    text-align: center;
+}
+
+.chef_benefit .banner_wrap .btn_wrap {
+    position: absolute;
+    top: 1030px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.chef_benefit .banner_wrap .btn_wrap li a {
+    display: inline-block;
+    color: #fff;
+    background: #ff5e0d;
+    font-size: 20px;
+    padding: 16px 20px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    border-radius: 34px;
+    border: 3px solid #fff;
+    transition: 0.4s;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 30%);
+}
+
+.chef_benefit .banner_wrap .btn_wrap li:hover a {
+    background: #233982;
+}
+
+.chef_benefit .banner_wrap .btn_wrap li {
+    margin-bottom: 10px;
+}
